@@ -55,11 +55,11 @@ If an eBay driver comes near the seller's district and has enough room in their 
 Here an example of the grid.
 ![Image of an eBay driver]//(https://db.tt/jRzj4IUS)
 
-- The delivery starts at `"0, 5"`, ends at `"2, 7"`.
-- The deliveries stops are `"0,5", "1,5", "1,6", "1,7", 2,7 `.
-- The pick up points are `"0,6", "2,6", "4, 0"`.
-- He won't be able to pick up `"4,0"` because the location is not near enough to the driver itinerary.
-- He will pick up packages at `"0,6"` and `"2,6"` because it's on the driver's path and the supposed packages volumes fit in the driver's truck.
+- The delivery starts at `"5,0"`, ends at `"7,2"`.
+- The deliveries stops are `"5,0", "5,1", "6,1", "7,1", "7,2" `.
+- The pick up points are `"6,0", "6,2", "0,4"`.
+- He won't be able to pick up `"0,4"` because the location is not near enough to the driver itinerary.
+- He will pick up packages at `"6,0"` and `"6,2"` because it's on the driver's path and the supposed packages volumes fit in the driver's truck.
 
 
 ```javascript
