@@ -7,11 +7,11 @@ As an eBay seller, it's possible to ask for a package pick up.
 If an eBay driver comes near the seller's district and has enough room in their truck, the sellers will be notified with a tracking number.
 
 > #### Objective
-> Implement the function `notify(driver, sellers)` that must return all the sellers that will receive a notification for a given driver.
+> Implement the function `notify(driver, sellers)` that must return an array of sellers ID that will receive a notification for a given driver.
 
 ##### Functional rules:
 
-- Every time the driver stops at a location he first deliver the packages to the client.
+- Every time the driver stops at a location **he first deliver the packages** to the **client**.
 - A driver is only able to pickup a seller package if the coordinates are one district away maximum.
   - Moving diagonally from the grid is considered as covering two districts,
 - A driver cannot pick up a seller's package if no space is available in their truck.
@@ -50,6 +50,8 @@ If an eBay driver comes near the seller's district and has enough room in their 
 
     var driver; // will be an instance of a driver
     var sellers; // will be an array of sellers
+
+    ....
 
     notify(driver, sellers); // must return a collection of sellers ID, matching the specification
 
