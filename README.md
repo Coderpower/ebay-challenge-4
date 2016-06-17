@@ -52,7 +52,8 @@ If an eBay driver comes near the seller's district and has enough room in their 
 
 ```
 #### Exemple:
-Here an example of the grid.
+Here an example of the grid.  
+
 ![Schema of an eBay driver's path](https://db.tt/EMWJvvRP)
 
 - The delivery starts at `"5,0"`, ends at `"7,2"`.
