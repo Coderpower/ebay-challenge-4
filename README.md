@@ -9,11 +9,11 @@ If an eBay driver comes near the seller's district and has enough room in their 
 > #### Objective
 > Implement the function `notify(driver, sellers)` that must return an array of sellers ID that will receive a notification for a given driver.
 
-##### Functional rules:
+#### Specification:
 
 - Every time the driver stops at a location **they first deliver the packages** to the **customer**.
 - A driver is only able to pickup a seller package if the coordinates are one district away maximum.
-  - *Moving diagonally from the grid is considered as covering two districts.*
+  - *Moving diagonally from the grid (cf. example) is considered as covering two districts.*
 - A driver cannot pick up a seller's package if no space is available in their truck.
 - If a driver decides to pickup a seller's packages, they must pick up all of them, they cannot take a sub set of it.
 - **The driver must pick up as many sellers packages as possible**. For that, they will have to come up with the decision one which stop pick up packages.
@@ -21,12 +21,19 @@ If an eBay driver comes near the seller's district and has enough room in their 
 
 #### Help :
 ```javascript
-// a seller
-
+// a package
 {
     id: String,
-    location: String,
-    products: [{ id: String, volume: Number }]
+    volume: Number // space taken by the package
+}
+```
+
+```javascript
+// a seller
+{
+    id: String,
+    location: String, // coordinates represented by "x, y"
+    packages: [Package]
 }
 ```
 
@@ -36,15 +43,24 @@ If an eBay driver comes near the seller's district and has enough room in their 
     id: String,
     capacity: Number,
     itinerary: [{
-            clientId: String,
-            destination: String,
-            products: [{ id: String, volume: Number }]
+            customerId: String,
+            destination: String, // coordinates represented by "x, y"
+            packages: [Package]
         }]
     ]
 }
 
 ```
 #### Exemple:
+Here an example of the grid.
+![Image of an eBay driver]//(https://db.tt/jRzj4IUS)
+
+- The delivery starts at `"0, 5"`, ends at `"2, 7"`.
+- The deliveries stops are `"0,5", "1,5", "1,6", "1,7", 2,7 `.
+- The pick up points are `"0,6", "2,6", "4, 0"`.
+- He won't be able to pick up `"4,0"` because the location is not near enough to the driver itinerary.
+- He will pick up packages at `"0,6"` and `"2,6"` because it's on the driver's path and the supposed packages volumes fit in the driver's truck.
+
 
 ```javascript
 
@@ -56,4 +72,3 @@ If an eBay driver comes near the seller's district and has enough room in their 
     notify(driver, sellers); // must return a collection of sellers ID, matching the specification
 
 ```
-![Image of Yaktocat](https://db.tt/jRzj4IUS)
