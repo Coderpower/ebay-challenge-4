@@ -11,9 +11,9 @@ If an eBay driver comes near the seller's district and has enough room in their 
 
 ##### Functional rules:
 
-- Every time the driver stops at a location **he first deliver the packages** to the **client**.
+- Every time the driver stops at a location **they first deliver the packages** to the **customer**.
 - A driver is only able to pickup a seller package if the coordinates are one district away maximum.
-  - Moving diagonally from the grid is considered as covering two districts,
+  - *Moving diagonally from the grid is considered as covering two districts.*
 - A driver cannot pick up a seller's package if no space is available in their truck.
 - If a driver decides to pickup a seller's packages, they must pick up all of them, they cannot take a sub set of it.
 - **The driver must pick up as many sellers packages as possible**. For that, they will have to come up with the decision one which stop pick up packages.
