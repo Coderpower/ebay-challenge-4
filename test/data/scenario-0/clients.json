@@ -1,0 +1,17 @@
+[
+    {
+        "id": "a7590f3c-2c56-41b6-b0ac-34f3204ab6e0",
+        "location": "1,3",
+        "products": [
+            { "id": "5a3c1e7a-6f17-4db6-8d60-f464e872c8fe", "volume": 10 }
+        ]
+    },
+    {
+        "id":"a37d22e6-8883-43ac-bf92-c97e774e11ec",
+        "location": "2,5",
+        "products": [
+            { "id": "58f00948-1ca3-4ff1-b75f-20a28c9a322d", "volume": 10 },
+            { "id": "ca938ce5-4a00-4547-bf5a-f11535c46096", "volume": 10 }
+        ]
+    }
+]

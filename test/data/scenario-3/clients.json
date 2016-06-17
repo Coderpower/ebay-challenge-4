@@ -1,0 +1,66 @@
+[
+    {
+        "id":"ca8c1fb4-02d1-4666-ac62-bcc1fc1962aa",
+        "location": "1,1",
+        "products": [
+            { "id": "5a3c1e7a-6f17-4db6-8d60-f464e872c8fe", "volume": 210 },
+            { "id": "75010509-40a0-49fc-a300-53089638e7cc", "volume": 40 }
+        ]
+    },
+    {
+        "id":"a37d22e6-8883-43ac-bf92-c97e774e11ec",
+        "location": "3,2",
+        "products": [
+            { "id": "b8c4d375-ddae-440c-b7a1-8df07b38f3fd", "volume": 150 },
+            { "id": "76078022-b493-4a5d-a2d9-5aea6906cd4e", "volume": 200 }
+        ]
+    },
+    {
+        "id":"78fa4f3a-c041-4884-8892-617eb9cc6e06",
+        "location": "3,4",
+        "products": [
+            { "id": "087f8ecc-c232-4981-99e4-69b387da9089", "volume": 10 },
+            { "id": "989d2b35-8ac4-4284-a959-a1abf4ba0519", "volume": 20 }
+        ]
+    },
+    {
+        "id":"78fa4f3a-c041-4884-8892-617eb9cc6e06",
+        "location": "5,4",
+        "products": [
+            { "id": "087f8ecc-c232-4981-99e4-69b387da9089", "volume": 10 },
+            { "id": "989d2b35-8ac4-4284-a959-a1abf4ba0519", "volume": 20 }
+        ]
+    },
+    {
+        "id":"a7590f3c-2c56-41b6-b0ac-34f3204ab6e0",
+        "location": "6,1",
+        "products": [
+            { "id": "f006bd25-2844-49d8-914a-a9cc73dfee1f", "volume": 10 },
+            { "id": "397ba3cb-2055-4dcb-9eb1-82513c742940", "volume": 20 }
+        ]
+    },
+    {
+        "id":"ca8c1fb4-02d1-4666-ac62-bcc1fc1962aa",
+        "location": "1,9",
+        "products": [
+            { "id": "f1d2f126-3e64-4696-b332-eef9df1c5718", "volume": 10 },
+            { "id": "dc63237b-ba64-48c7-b8f2-debd313fc35e", "volume": 20 }
+        ]
+    },
+    {
+        "id":"6a4e6367-fcd5-4722-8d69-29b3daca33f6",
+        "location": "6,8",
+        "products": [
+            { "id": "2dc6d3f6-4377-47e8-a652-61db8cfe5db9", "volume": 10 },
+            { "id": "2a34e6cd-86e8-40c1-92e2-35871d77e56d", "volume": 20 }
+        ]
+    },
+    {
+        "id":"8448c7dc-a74e-4654-be4d-5d8c5ed35974",
+        "location": "8,3",
+        "products": [
+            { "id": "73ed5df6-4eac-4fbd-90e3-e0fc5cd56a81", "volume": 10 },
+            { "id": "747b7b47-dc77-45e9-849b-2d869cfbbf8a", "volume": 20 }
+        ]
+    }
+]

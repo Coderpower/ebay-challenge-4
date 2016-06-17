@@ -1,0 +1,20 @@
+{
+  "name": "javascript-exercise-template",
+  "version": "1.0.0",
+  "description": "How to create an exercise in javascript on coderpower.com",
+  "directories": {
+    "test": "./test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coderpower/javascript-exercise-template.git"
+  },
+  "author": "Coderpower Sample",
+  "homepage": "https://github.com/Coderpower/javascript-exercise-template.git#readme",
+  "dependencies": {
+    "expect.js": "^0.3.1"
+  }
+}
