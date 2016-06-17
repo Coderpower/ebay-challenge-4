@@ -19,8 +19,8 @@ suite('Package Delivery', function(){
         var truck = require('./data/scenario-0/truck.json');
         var clients = require('./data/scenario-1/clients.json');
         var expectations = [
-            "a7590f3c-2c56-41b6-b0ac-34f3204ab6e0",
-            "a37d22e6-8883-43ac-bf92-c97e774e11ec"
+            "07479caa-9a45-4eeb-8717-a5107cec2b71",
+            "777e1c4d-e695-423e-ac46-751ef7083e8c"
         ];
 
         expect(prepareDelivery(clients, truck)).to.eql(expectations);
@@ -43,8 +43,8 @@ suite('Package Delivery', function(){
         var truck = require('./data/scenario-1/truck.json');
         var clients = require('./data/scenario-1/clients.json')
         var expectations = [
-            "a7590f3c-2c56-41b6-b0ac-34f3204ab6e0",
-            "a37d22e6-8883-43ac-bf92-c97e774e11ec"
+            "bc488845-8f9d-42fa-a0ba-2fff7971fc76",
+            "62bedee5-8ac3-4431-ac16-1ca158791aa1"
         ]
 
         expect(prepareDelivery(clients, truck)).to.eql(expectations);
@@ -68,7 +68,7 @@ suite('Package Delivery', function(){
         var clients = require('./data/scenario-1/clients.json')
         var expectations = [
             "a37d22e6-8883-43ac-bf92-c97e774e11ec",
-            "78fa4f3a-c041-4884-8892-617eb9cc6e06",
+            "27e39825-c2f1-4e80-a3a4-148abec98dde",
             "78fa4f3a-c041-4884-8892-617eb9cc6e06"
         ]
 
