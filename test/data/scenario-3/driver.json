@@ -1,0 +1,94 @@
+{
+	"id": "332edc44-d959-45f5-a927-d010a3a1b1f1ee",
+	"capacity": 1000,
+	"itinary": [{
+		"destination": "1,0",
+		"products": [{
+			"id": "40297c44-d959-45f5-a927-d010a3a131a4",
+			"volume": 50
+		}, {
+			"id": "4267bdc7-89eb-4fc6-9697-9d0ceb999534",
+			"volume": 30
+		}]
+	}, {
+		"destination": "2,0",
+		"products": [{
+			"id": "3fd350ba-c302-48ab-835e-d2fce6c04dee",
+			"volume": 40
+		}, {
+			"id": "8f2343e3-b6d9-4462-80f7-0a5c209fae35",
+			"volume": 20
+		}, {
+			"id": "8406d682-f8be-47cb-866a-0250032e91b0",
+			"volume": 100
+		}]
+	}, {
+		"destination": "2,1",
+		"products": [{
+			"id": "6136d157-2242-4b28-9fe3-26bb6a044c42",
+			"volume": 150
+		}, {
+			"id": "dcd68abf-7976-4311-ac07-80c8e52022c2",
+			"volume": 20
+		}]
+	}, {
+		"destination": "2,2",
+		"products": [{
+			"id": "7c7bd598-90e9-42d0-a524-818d5747d0ad",
+			"volume": 250
+		}, {
+			"id": "9edf8630-9f85-4803-97d8-a291bac9d0c9",
+			"volume": 30
+		}]
+	}, {
+		"destination": "2,3",
+		"products": [{
+				"id": "7b103676-3e7e-40ed-b8ae-48d410480f1e",
+				"volume": 5
+			}
+
+		]
+	}, {
+		"destination": "3,3",
+		"products": [{
+			"id": "ed109dd6-4d5c-4f8f-b6f1-f5c0a68270d1",
+			"volume": 35
+		}]
+	}, {
+		"destination": "4,3",
+		"products": [{
+			"id": "6a52dce5-b734-45c6-88d1-25d748d5a893",
+			"volume": 25
+		}]
+	}, {
+		"destination": "4,4",
+		"products": [{
+			"id": "3cf5c3ba-7ade-45e0-aca2-07f69033d5b1",
+			"volume": 30
+		}, {
+			"id": "75c9312b-b51a-48ca-bcd9-be096a26db42",
+			"volume": 20
+		}, {
+			"id": "121e5b0f-27c8-49e9-ad55-b40147af0457",
+			"volume": 50
+		}]
+	}, {
+		"destination": "4,5",
+		"products": [{
+			"id": "5e9dfa50-1e26-468e-aa39-88353373952b",
+			"volume": 10
+		}, {
+			"id": "2ad0563e-8489-45ca-826a-87c2007521f1",
+			"volume": 80
+		}]
+	}, {
+		"destination": "5,5",
+		"products": [{
+			"id": "efb2e5bb-0976-41cd-9f8a-bb35f757b9c4",
+			"volume": 40
+		}, {
+			"id": "dd1c92e5-f071-4f64-8831-1f1b53369bd1",
+			"volume": 15
+		}]
+	}]
+}
