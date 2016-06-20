@@ -1,15 +1,17 @@
 {
-	"id": "abc",
+	"id": "228615f7-92c6-4978-bc37-fe779b0ec6d0",
 	"capacity": 300,
-	"itinary": [{
+	"itinerary": [{
+		"customerId":"79194e81-5e16-4a77-8a07-cfe496a5fadd",
 		"destination": "0,4",
-		"products": [{
+		"packages": [{
 			"id": "40297c44-d959-45f5-a927-d010a3a131a4",
 			"volume": 50
 		}]
 	}, {
 		"destination": "1,4",
-		"products": [{
+		"customerId": "2037dc14-63dc-4dc0-91f2-996148d6299f",
+		"packages": [{
 			"id": "3fd350ba-c302-48ab-835e-d2fce6c04dee",
 			"volume": 40
 		}, {
@@ -21,7 +23,8 @@
 		}]
 	}, {
 		"destination": "2,4",
-		"products": [{
+		"customerId": "409ba145-13e6-472f-985a-a4dbd4d8d097",
+		"packages": [{
 			"id": "6136d157-2242-4b28-9fe3-26bb6a044c42",
 			"volume": 10
 		}, {
@@ -30,7 +33,8 @@
 		}]
 	}, {
 		"destination": "3,4",
-		"products": [{
+		"customerId": "fdab64d0-0bcc-4a58-946b-7b504f4601de",
+		"packages": [{
 			"id": "7c7bd598-90e9-42d0-a524-818d5747d0ad",
 			"volume": 25
 		}, {

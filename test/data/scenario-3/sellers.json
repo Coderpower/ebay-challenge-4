@@ -2,7 +2,7 @@
     {
         "id":"ca8c1fb4-02d1-4666-ac62-bcc1fc1962aa",
         "location": "1,1",
-        "products": [
+        "packages": [
             {
                 "id": "5a3c1e7a-6f17-4db6-8d60-f464e872c8fe",
                 "volume": 210
@@ -16,7 +16,7 @@
     {
         "id":"a37d22e6-8883-43ac-bf92-c97e774e11ec",
         "location": "3,2",
-        "products": [
+        "packages": [
             {
                 "id": "b8c4d375-ddae-440c-b7a1-8df07b38f3fd",
                 "volume": 150
@@ -30,7 +30,7 @@
     {
         "id":"27e39825-c2f1-4e80-a3a4-148abec98dde",
         "location": "3,4",
-        "products": [
+        "packages": [
             {
                 "id": "087f8ecc-c232-4981-99e4-69b387da9089",
                 "volume": 170
@@ -44,7 +44,7 @@
     {
         "id":"78fa4f3a-c041-4884-8892-617eb9cc6e06",
         "location": "5,4",
-        "products": [
+        "packages": [
             {
                 "id": "087f8ecc-c232-4981-99e4-69b387da9089",
                 "volume": 30
@@ -58,7 +58,7 @@
     {
         "id":"3b3dbe8e-80e7-46e8-a5bc-021349eace67",
         "location": "6,1",
-        "products": [
+        "packages": [
             {
                 "id": "f006bd25-2844-49d8-914a-a9cc73dfee1f",
                 "volume": 10
@@ -72,7 +72,7 @@
     {
         "id":"ca8c1fb4-02d1-4666-ac62-bcc1fc1962aa",
         "location": "1,9",
-        "products": [
+        "packages": [
             {
                 "id": "f1d2f126-3e64-4696-b332-eef9df1c5718",
                 "volume": 10
@@ -86,7 +86,7 @@
     {
         "id":"6a4e6367-fcd5-4722-8d69-29b3daca33f6",
         "location": "6,8",
-        "products": [
+        "packages": [
             {
                 "id": "2dc6d3f6-4377-47e8-a652-61db8cfe5db9",
                 "volume": 10
@@ -100,7 +100,7 @@
     {
         "id":"8448c7dc-a74e-4654-be4d-5d8c5ed35974",
         "location": "8,3",
-        "products": [
+        "packages": [
             {
                 "id": "73ed5df6-4eac-4fbd-90e3-e0fc5cd56a81",
                 "volume": 10

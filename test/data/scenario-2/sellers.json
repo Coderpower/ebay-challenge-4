@@ -1,17 +1,17 @@
 [
     {
-        "id": "bc488845-8f9d-42fa-a0ba-2fff7971fc76",
-        "location": "6,0",
-        "products": [
-            { "id": "5a3c1e7a-6f17-4db6-8d60-f464e872c8fe", "volume": 350 }
+        "id":"62bedee5-8ac3-4431-ac16-1ca158791aa1",
+        "location": "6,2",
+        "packages": [
+            { "id": "58f00948-1ca3-4ff1-b75f-20a28c9a322d", "volume": 10 },
+            { "id": "ca938ce5-4a00-4547-bf5a-f11535c46096", "volume": 10 }
         ]
     },
     {
-        "id":"62bedee5-8ac3-4431-ac16-1ca158791aa1",
-        "location": "6,2",
-        "products": [
-            { "id": "58f00948-1ca3-4ff1-b75f-20a28c9a322d", "volume": 10 },
-            { "id": "ca938ce5-4a00-4547-bf5a-f11535c46096", "volume": 10 }
+        "id": "bc488845-8f9d-42fa-a0ba-2fff7971fc76",
+        "location": "6,0",
+        "packages": [
+            { "id": "5a3c1e7a-6f17-4db6-8d60-f464e872c8fe", "volume": 300 }
         ]
     }
 ]
